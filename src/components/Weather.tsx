@@ -44,27 +44,35 @@ const Weather = () => {
             <img src={search_icon} alt=''/>
           </div>
         </div>
-        <div className='weather-image'>
-          <img src={`https://openweathermap.org/img/wn/${icon}@4x.png`} alt='' className='icon-image'/>
-        </div>
-        <div className='weather-temp'>{weather || "-"}</div>
-        <div className='weather-location'>{city || "-"}</div>
-        <div className='data-container'>
-          <div className='element'>
-            <img src={humidity_icon} alt='' className='icon'/>
-            <div className='data'>
-              <div className='humidity-percent'>{humidity || "- "}%</div>
-              <div className='text'>Humidade</div>
-            </div>
+        {loading ? (
+          <div className='loading-container'>
+            <div className='spinner'></div>
           </div>
-          <div className='element'>
-            <img src={wind_icon} alt='' className='icon'/>
-            <div className='data'>
-              <div className='humidity-percent'>{wind || "- "}km/h</div>
-              <div className='text'>Velocidade do Vento</div>
+        ) : (
+          <>
+            <div className='weather-image'>
+              <img src={`https://openweathermap.org/img/wn/${icon}@4x.png`} alt='' className='icon-image'/>
             </div>
-          </div>
-        </div>
+            <div className='weather-temp'>{weather || "-"}</div>
+            <div className='weather-location'>{city || "-"}</div>
+            <div className='data-container'>
+              <div className='element'>
+                <img src={humidity_icon} alt='' className='icon'/>
+                <div className='data'>
+                  <div className='humidity-percent'>{humidity || "- "}%</div>
+                  <div className='text'>Humidade</div>
+                </div>
+              </div>
+              <div className='element'>
+                <img src={wind_icon} alt='' className='icon'/>
+                <div className='data'>
+                  <div className='humidity-percent'>{wind || "- "}km/h</div>
+                  <div className='text'>Velocidade do Vento</div>
+                </div>
+              </div>
+            </div>
+          </>
+        )}
       </div>
     </div>
   )
