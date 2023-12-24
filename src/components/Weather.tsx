@@ -23,8 +23,6 @@ const Weather = () => {
     let response = await fetch(url)
     let data = await response.json()
 
-    console.log(data)
-
     setCity(data.name)
     setIcon(data.weather[0].icon)   
     setWeather((data.main.temp.toFixed(0)) + "°")
