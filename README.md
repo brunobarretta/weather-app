@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+# Nome do Seu Projeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicativo de Clima em React: Obtenha informações sobre as condições climáticas de qualquer lugar do mundo! Basta digitar o nome da cidade e pronto. Desenvolvido em React, com uso da API Fetch, CSS e HTML para uma experiência fluida.
 
-Currently, two official plugins are available:
+## Pré-requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Certifique-se de ter as seguintes ferramentas instaladas antes de prosseguir:
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Instalação
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone o repositório:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+git clone https://github.com/brunobarretta/weather-app.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+2. Navegue até o diretório do projeto:
+
+```bash
+cd weather-app
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+## Configuração
+
+Copie o arquivo .env.example para um novo arquivo chamado .env e preencha as variáveis de ambiente conforme necessário.
+
+## Uso
+
+Inicie o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
