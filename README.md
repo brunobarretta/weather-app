@@ -49,10 +49,10 @@ npm run dev
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS): Linguagem de estilo para descrever a apresentação de documentos HTML.
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): Linguagem de marcação para estruturação de documentos web.
 
-# Licença
+## Licença
 
 Este projeto é licenciado sob a [Licença MIT](LICENSE).
 
-# Créditos
+## Créditos
 
 Projeto desenvolvido por [Bruno Barretta](https://github.com/brunobarretta).
