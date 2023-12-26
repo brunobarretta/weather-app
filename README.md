@@ -48,3 +48,11 @@ npm run dev
 - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API): Interface JavaScript para realizar requisições HTTP.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS): Linguagem de estilo para descrever a apresentação de documentos HTML.
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): Linguagem de marcação para estruturação de documentos web.
+
+# Licença
+
+Este projeto é licenciado sob a [Licença MIT](LICENSE).
+
+# Créditos
+
+Projeto desenvolvido por [Bruno Barretta](https://github.com/brunobarretta).
