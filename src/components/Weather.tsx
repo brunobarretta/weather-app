@@ -13,7 +13,7 @@ const Weather = () => {
   const [wind, setWind] = useState<string>("")
   const [loading, setLoading] = useState<boolean>(false)
 
-  let api_key = "f4f48f2f9cdf818da9362c1a8a01cc5c"
+  let api_key = import.meta.env.VITE_API_KEY
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=${api_key}&units=metric`
 
