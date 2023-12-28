@@ -4,7 +4,7 @@ Aplicativo de Clima em React: Obtenha informações sobre as condições climát
 
 ## Demonstração da Aplicação
 
-![Slide de Demonstração](url-da-imagem-ou-video.gif)
+![Slide de Demonstração](src/assets/images/weather-app.gif)
 
 ## Pré-requisitos
 
