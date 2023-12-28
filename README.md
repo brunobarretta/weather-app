@@ -2,6 +2,10 @@
 
 Aplicativo de Clima em React: Obtenha informações sobre as condições climáticas de qualquer lugar do mundo! Basta digitar o nome da cidade e pronto. Desenvolvido em React, com uso da API Fetch, CSS e HTML para uma experiência fluida.
 
+## Demonstração da Aplicação
+
+![Slide de Demonstração](url-da-imagem-ou-video.gif)
+
 ## Pré-requisitos
 
 Certifique-se de ter as seguintes ferramentas instaladas antes de prosseguir:
@@ -45,6 +49,7 @@ npm run dev
 ## Tecnologias Utilizadas
 
 - [React](https://reactjs.org/): Biblioteca JavaScript para construção de interfaces de usuário.
+- [Vite](https://vitejs.dev/): Vite é um framework de desenvolvimento web extremamente rápido para projetose em React. 
 - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API): Interface JavaScript para realizar requisições HTTP.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS): Linguagem de estilo para descrever a apresentação de documentos HTML.
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): Linguagem de marcação para estruturação de documentos web.
